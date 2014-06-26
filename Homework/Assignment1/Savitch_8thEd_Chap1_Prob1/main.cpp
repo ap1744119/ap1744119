@@ -1,6 +1,6 @@
 /* 
  * File:   main.cpp
- * Author: rcc
+ * Author: Alejandra Pesqueira
  *
  * Created on June 25, 2014, 7:54 PM
  */
