@@ -5,10 +5,20 @@
  * Purpose: Assignment 1
  */
 
+//System Libraries
 #include <iostream>
 using namespace std;
+
+//User Libraries
+
+//Global Constants
+
+//Function Prototypes
+
+//Execution Starts Here!
 int main(int argc, char** argv) 
 {
+    //Declare variables
     int number_of_quarters, number_of_dimes, number_of_nickels;
     int total_value_of_quarters, total_value_of_dimes, total_value_of_nickels;
     int total_monetary_value;
@@ -32,6 +42,7 @@ int main(int argc, char** argv)
     cout << "The total worth of all the coins is ";
     cout << total_monetary_value;
     cout << " cents.\n";
+    //Exit stage right
     return 0;
 }
 
