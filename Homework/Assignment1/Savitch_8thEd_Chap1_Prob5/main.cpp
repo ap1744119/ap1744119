@@ -29,7 +29,7 @@ int main( )
     cout << "If we make an error and hit the multiplication sign in the calculator,\n";
     cout << "we will get an output of ";
     cout << total_number_multiplied;
-    cout << " fruits, which makes no sense unless we have 2 sets of each!\n";
+    cout << " fruits, which makes no sense unless we have 2 of each!\n";
     cout << "Lesson concluded, now go make a smoothie!\n";
     return 0;
 }
