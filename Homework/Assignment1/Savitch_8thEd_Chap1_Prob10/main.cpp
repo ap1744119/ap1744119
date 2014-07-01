@@ -24,10 +24,5 @@ int main(int argc, char** argv)
         <<""<< letter <<"      "<<endl
         <<" "<< letter <<"    "<< letter <<""<<endl
         <<"  "<< letter <<" "<< letter <<" "<< letter <<""<<endl;
-    
-    
-    
-    
-    
     return 0;
 }
