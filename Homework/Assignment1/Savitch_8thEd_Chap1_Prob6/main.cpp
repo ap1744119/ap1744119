@@ -4,13 +4,23 @@
  * Created on June 25, 2014, 7:54 PM
  * Purpose: Assignment 1
  */
+//System Libraries
 
 #include <iostream> 
 // by adding a space between < and i, system cannot find this file, it sees it different that <iostream>.
 using namespace std;
 // if int main( ) is taken out, the whole build fails, and { token can no longer be understood.
+
+//User Libraries
+
+//Global Constants
+
+//Function Prototypes
+
+//Execution Starts Here!
 int main( ) 
 {
+    //Declare variables
     int number_of_bananas, number_of_apples, total_number_multiplied, total_number_added; 
     // w/o _ between the words I get "Unexpected tokens" and "Unable to resolve identifier" errors for each word.
     cout << "Press enter after entering the values.\n"; 
@@ -41,6 +51,7 @@ int main( )
     cout << total_number_multiplied;
     cout << " fruits, which makes no sense unless we have 2 sets of each!\n";
     cout << "Lesson concluded, now go make a smoothie!\n";
+    //Exit stage right
     return 0;
  }
 //If both semicolons are gone, the program still works, but if only one is left, we receive an error and the build fails.
