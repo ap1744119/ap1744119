@@ -15,7 +15,7 @@ int main(int argc, char** argv)
     cout << "Enter the time, in seconds, of the freefall duration:\n";
     cin >> time;
     acceleration = 32;
-    distance = (acceleration * time^2)/2;
+    distance = (acceleration * time * time)/2;
     
     cout << "The total distance traveled in ";
     cout << time;
