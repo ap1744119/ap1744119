@@ -13,6 +13,7 @@ int main(int argc, char** argv)
     int total_value_of_quarters, total_value_of_dimes, total_value_of_nickels;
     int total_monetary_value;
     
+    cout << "Hello,\n";
     cout << "Press return after entering a value.\n";
     cout << "Enter the number of quarters:\n";
     cin >> number_of_quarters;
@@ -25,7 +26,7 @@ int main(int argc, char** argv)
     cout << "Enter the number of nickels:\n";
     cin >> number_of_nickels;
     total_value_of_nickels = number_of_nickels * 5;
-    total_monetary_value = total_value_of_quartes + total_value_of_dimes + total_value_of_nickels;
+    total_monetary_value = total_value_of_quarters + total_value_of_dimes + total_value_of_nickels;
     
     cout << " \n";
     cout << "The total worth of all the coins is ";
