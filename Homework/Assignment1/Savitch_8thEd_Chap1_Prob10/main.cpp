@@ -11,15 +11,21 @@ int main(int argc, char** argv)
 {
     char letter;
     cout << "Hello,\n";
-    cout << "Input any letter from the keyboard:\n";
-    cin << letter;
+    cout << "Please enter any letter from the keyboard:\n";
+    cin >> letter;
     
-    cout << "   ";
-    cout << letter;
-    cout << " ";
-    cout << letter;
-    cout << " ";
-    cout << letter <<endl;
+    cout <<" "<<endl
+        <<"  "<< letter <<" "<< letter <<" "<< letter <<""<<endl
+        <<" "<< letter <<"    "<< letter <<""<<endl
+        <<""<< letter <<"      "<<endl
+        <<""<< letter <<"      "<<endl
+        <<""<< letter <<"      "<<endl
+        <<""<< letter <<"      "<<endl
+        <<""<< letter <<"      "<<endl
+        <<" "<< letter <<"    "<< letter <<""<<endl
+        <<"  "<< letter <<" "<< letter <<" "<< letter <<""<<endl;
+    
+    
     
     
     
