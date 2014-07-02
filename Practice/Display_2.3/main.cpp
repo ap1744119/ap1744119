@@ -18,7 +18,9 @@ using namespace std;
 //Execution Begins Here!
 int main(int argc, char** argv) {
     //Declare variables
+
     //Output a string
+
     //Exit stage right
     return 0;
 }
