@@ -27,7 +27,7 @@ int main(int argc, char** argv)
     cout << "and the weight in ounces of one candy bar.\n";
     cout << "Then press return.\n";
     cin >> number_of_bars;
-    cin>> one_weight;
+    cin >> one_weight;
     
     total_weight = one_weight * number_of_bars;
     
