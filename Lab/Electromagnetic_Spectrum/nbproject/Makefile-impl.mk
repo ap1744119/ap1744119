@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=ex_1
+PROJECTNAME=Electromagnetic_Spectrum
 
 # Active Configuration
 DEFAULTCONF=Debug

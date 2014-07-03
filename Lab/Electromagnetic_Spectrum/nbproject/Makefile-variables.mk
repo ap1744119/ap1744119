@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin_4.x-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin_4.x-Windows
-CND_ARTIFACT_NAME_Debug=ex_1
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/ex_1
+CND_ARTIFACT_NAME_Debug=electromagnetic_spectrum
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/electromagnetic_spectrum
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin_4.x-Windows/package
-CND_PACKAGE_NAME_Debug=ex1.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/package/ex1.tar
+CND_PACKAGE_NAME_Debug=electromagneticspectrum.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/package/electromagneticspectrum.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin_4.x-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin_4.x-Windows
-CND_ARTIFACT_NAME_Release=ex_1
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin_4.x-Windows/ex_1
+CND_ARTIFACT_NAME_Release=electromagnetic_spectrum
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin_4.x-Windows/electromagnetic_spectrum
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin_4.x-Windows/package
-CND_PACKAGE_NAME_Release=ex1.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin_4.x-Windows/package/ex1.tar
+CND_PACKAGE_NAME_Release=electromagneticspectrum.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin_4.x-Windows/package/electromagneticspectrum.tar
 #
 # include compiler specific variables
 #
