@@ -32,6 +32,7 @@ int main(int argc, char** argv) {
     mpg=static_cast<float>(miles)/gallons;//static_cast<float> has to be there so it wont truncate a simple integer.
     //it tells the system to use decimal place, don't you the precision formula: the precision formula
     // would truncate the number and still add .00 to the number
+    //OR mpg=miles/static_cast<float>(gallons); would work as well.
     
     //Output the results
     cout<<"You car is capable of "<<mpg<<" miles per gallon."<<endl;
