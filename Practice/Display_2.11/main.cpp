@@ -8,7 +8,7 @@ int main(int argc, char** argv) {
     while (count_down>0)
     {
         cout<<"Hello ";
-        count_down=count_down-1;
+        count_down--;// took the place of count_down=count_down-1
     }
     cout<<endl;
     cout<<"That's all folks!\n";
