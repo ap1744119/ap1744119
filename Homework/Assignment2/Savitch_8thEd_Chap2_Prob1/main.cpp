@@ -16,22 +16,25 @@ using namespace std;
 //Function Prototypes
 
 //Execution Begins Here!
-int main(int argc, char** argv) {
+int main(int argc, char** argv) 
+{
     //Declare variables
-    int cereal_box_weight, number_of_boxes, total_weight_in_oz;
-    double total_weight;
-    const int metric_conversion(1/35273.92);
-    //Output a string
-    cout << "Enter the weight of cereal box in ounces:\n";
-    cin >> cereal_box_weight;
-    cout << "Enter the number of cereal boxes:\n";
-    cin >> number_of_boxes;
-    total_weight = cereal_box_weight * number_of_boxes * metric_conversion;
-    cout.setf(ios::fixed);
-    cout.setf(ios::showpoint);
-    cout.precision(2);
-    cout << total_weight;
-    
+    char done;
+    int boxes;//Number of boxes needed
+    double crlwght, ttlwght(35273.92);//Cereal weight of each one and total weight
+    //Input information needed
+    do
+    {
+    cout<<"Hello,\n";
+    cout<<"Enter the weight of each cereal box in ounces or type 'done':\n";
+    cin>>crlwght;
+    //How many boxes needed to make a metric ton?
+    boxes=ttlwght/crlwght;
+    //Output solution
+    cout<<"You would need "<<boxes<<" boxes of that cereal to make a metric ton.\n";
     //Exit stage right
+    } while (crlwght!=done);
+    cout<<"Good-bye.\n";
     return 0;
+
 }
