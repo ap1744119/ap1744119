@@ -18,8 +18,8 @@ using namespace std;
 //Execution Begins Here!
 int main(int argc, char** argv) 
 {
-    //Declare variables
-    double s, ba, bm, r(.076);//where s=annual salary, b=bonus received (a for annual, m for monthly), & r=retroactive pay increase
+    //Input variables
+    float s, ba, bm, r(.076);//where s=annual salary, b=bonus received (a for annual, m for monthly), & r=retroactive pay increase
     int m;
     //Input information needed
     cout<<"Please enter your annual salary: $";
@@ -29,10 +29,10 @@ int main(int argc, char** argv)
     //Calculate the bonus the employee will receive
     ba=s*r*m/12+s;
     bm=ba/12;
-    //Output bonus earned
     cout.setf(ios::fixed);
     cout.setf(ios::showpoint);
     cout.precision(2);
+    //Output bonus earned
     cout<<"Your new annual salary with the retroactive bonus will be: $"<<ba<<"."<<endl;
     cout<<"Breaks down to a new monthly salary of: $"<<bm<<" for the upcoming year."<<endl;
     //Exit stage right

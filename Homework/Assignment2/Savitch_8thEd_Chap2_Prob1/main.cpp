@@ -20,7 +20,7 @@ int main(int argc, char** argv)
 {
     //Declare variables
     int boxes;//Number of boxes needed
-    double crlwght, ttlwght(35273.92);//Cereal weight of each one and total weight
+    float crlwght, ttlwght(35273.92);//Cereal weight of each one and total weight
     //Input information needed    
     cout<<"Enter the weight of each cereal box in ounces:\n";
     cin>>crlwght;
